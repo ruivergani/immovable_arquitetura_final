@@ -1,0 +1,57 @@
+html,
+body{
+	height: 100%;
+}
+
+header{
+	background-image: url(../images/castelo.jpg);
+	height: 100%;
+	background-size: 100%;
+	background-size: cover; /*para ajustara a imagem jno espaço q esta inserido*/
+	background-position: top center;
+
+}
+
+.banner{
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	padding: 20px;
+	width: 80%;
+	border-radius: 5px;
+    margin: 0 auto;
+}
+
+div#painel-sobre {
+	margin-top: 20px;
+}
+
+article#depoimentos h2{
+	background-color: #006;
+	color:#fff;
+	text-align: center;
+	font-size: 24px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-bottom: 0;
+}
+
+.contato-radio,
+.contato-select{
+	width: 50%;
+	float: left;
+}
+
+.radio:first-child{
+	margin-top: 0;
+}
+
+footer{
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+figure.col-sm-6.col-md-3{ /* todo figure  qestiver usando ou o col-md-3 ou o sm-6 */
+	min-height: 370px; /*altura de cada caixa q esta a imagem*/
+
+}
